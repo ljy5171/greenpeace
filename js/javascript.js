@@ -63,17 +63,32 @@ $news_prev.addEventListener('click',function(evt){
                 $news.style.transition = 'all 0.4s ease-in-out';    
             },100);
         },400) 
-    
-   
-   
-        //         $news.style.transition = 'none';
-    // $news.appendChild($news.firstElementChild);  
-    // $news.style.left = 0;      
-    //             $news.style.transition = 'all 0.4s ease-in-out';    
-
-    
-
 
     });
 }
+
+document.querySelectorAll('.article2>div>div>ol>li>a').forEach(function($li,idx){
+    $li.addEventListener('click',function(evt){
+            evt.preventDefault();
+    
+    });
+});
+document.querySelectorAll('.article4>ol>li>a').forEach(function($li,idx){
+    $li.addEventListener('click',function(evt){
+            evt.preventDefault();
+    
+    });
+});
+document.querySelectorAll('footer>.foot>ol>li>a').forEach(function($li,idx){
+    $li.addEventListener('click',function(evt){
+            evt.preventDefault();
+    
+    });
+});
+document.querySelectorAll('footer>.foot>ul>li>a').forEach(function($li,idx){
+    $li.addEventListener('click',function(evt){
+            evt.preventDefault();
+    
+    });
+});
 
